@@ -1,31 +1,97 @@
-# Enterprise Cybersecurity Lab
-
-Attack detection and prevention lab using pfSense and Suricata
+# Enterprise SOC Monitoring Lab
 
 ## Overview
 
-This repository contains resources and configurations for building and managing an enterprise-grade attack detection and prevention laboratory environment using pfSense and Suricata.
+This project demonstrates the implementation of a Security Operations Center (SOC) monitoring environment using multiple cybersecurity tools and technologies.
 
-## Components
+The lab simulates real-world attack detection, log monitoring, intrusion detection, and SIEM-based security analysis.
 
-- **pfSense**: Open-source firewall and network security platform
-- **Suricata**: High-performance network Intrusion Detection System (IDS) and Intrusion Prevention System (IPS)
+---
 
-## Getting Started
+# Lab Components
 
-Instructions for setting up and configuring the lab environment will be added here.
+* Kali Linux (Attacker Machine)
+* Metasploitable2 (Vulnerable Target)
+* pfSense Firewall
+* Snort IDS/IPS
+* Splunk SIEM
+* Wireshark Packet Analyzer
 
-## Features
+---
 
-- Network traffic monitoring and analysis
-- Intrusion detection and prevention capabilities
-- Attack detection and response mechanisms
-- Enterprise-level security testing environment
+# Project Objectives
 
-## Contributing
+* Perform reconnaissance and vulnerability scanning
+* Simulate attacks in a controlled environment
+* Detect malicious activity using Snort
+* Forward logs from pfSense to Splunk
+* Analyze security events using SIEM dashboards
+* Create SOC monitoring visualizations and alerts
 
-Contributions are welcome. Please feel free to submit pull requests or open issues for bugs and feature requests.
+---
 
-## License
+# Technologies Used
 
-Please see the LICENSE file for details.
+| Tool       | Purpose                      |
+| ---------- | ---------------------------- |
+| Kali Linux | Penetration Testing          |
+| Nmap       | Reconnaissance & Enumeration |
+| Metasploit | Exploitation                 |
+| pfSense    | Firewall & Routing           |
+| Snort      | Intrusion Detection          |
+| Splunk     | SIEM & Log Analysis          |
+| Wireshark  | Packet Analysis              |
+
+---
+
+# SOC Architecture
+
+Kali Linux → pfSense Firewall → Snort IDS → Splunk SIEM Dashboard
+
+Metasploitable2 acts as the vulnerable target system.
+
+---
+
+# Features
+
+* Real-time SIEM Monitoring
+* Firewall Log Analysis
+* Intrusion Detection
+* Nmap Detection
+* Attack Monitoring
+* Security Dashboards
+* Log Correlation
+* Alert Generation
+
+---
+
+# Attack Simulations
+
+* Nmap Reconnaissance
+* Service Enumeration
+* Metasploit Exploitation
+* IDS Detection
+* SIEM Monitoring
+
+---
+
+# Screenshots
+
+Screenshots are available in the `/screenshots` directory.
+
+---
+
+# Learning Outcomes
+
+* SOC Workflow Understanding
+* SIEM Log Monitoring
+* IDS/IPS Deployment
+* Firewall Configuration
+* Threat Detection
+* Incident Monitoring
+
+---
+
+# Disclaimer
+
+This lab environment was created strictly for educational and ethical cybersecurity learning purposes.
