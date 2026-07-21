@@ -13,7 +13,7 @@ The lab simulates real-world attack detection, log monitoring, intrusion detecti
 * Kali Linux (Attacker Machine)
 * Metasploitable2 (Vulnerable Target)
 * pfSense Firewall
-* Snort IDS/IPS
+* Suricata IDS/IPS
 * Splunk SIEM
 * Wireshark Packet Analyzer
 
@@ -23,7 +23,7 @@ The lab simulates real-world attack detection, log monitoring, intrusion detecti
 
 * Perform reconnaissance and vulnerability scanning
 * Simulate attacks in a controlled environment
-* Detect malicious activity using Snort
+* Detect malicious activity using Suricata
 * Forward logs from pfSense to Splunk
 * Analyze security events using SIEM dashboards
 * Create SOC monitoring visualizations and alerts
@@ -38,7 +38,7 @@ The lab simulates real-world attack detection, log monitoring, intrusion detecti
 | Nmap       | Reconnaissance & Enumeration |
 | Metasploit | Exploitation                 |
 | pfSense    | Firewall & Routing           |
-| Snort      | Intrusion Detection          |
+| Suricata   | Intrusion Detection          |
 | Splunk     | SIEM & Log Analysis          |
 | Wireshark  | Packet Analysis              |
 
@@ -46,7 +46,7 @@ The lab simulates real-world attack detection, log monitoring, intrusion detecti
 
 # SOC Architecture
 
-Kali Linux → pfSense Firewall → Snort IDS → Splunk SIEM Dashboard
+Kali Linux → pfSense Firewall → Suricata IDS → Splunk SIEM Dashboard
 
 Metasploitable2 acts as the vulnerable target system.
 
