@@ -10,7 +10,7 @@ This phase focuses on integrating Splunk SIEM into the cybersecurity SOC lab.
 
 - Splunk Enterprise
 - pfSense Firewall
-- Snort IDS
+- Suricata IDS
 - Kali Linux
 - Metasploitable2
 
@@ -18,7 +18,7 @@ This phase focuses on integrating Splunk SIEM into the cybersecurity SOC lab.
 
 # Log Collection
 
-Logs were forwarded from pfSense and Snort to Splunk using Syslog UDP port 514.
+Logs were forwarded from pfSense and Suricata to Splunk using Syslog UDP port 514.
 
 ---
 
